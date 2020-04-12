@@ -41,6 +41,7 @@
     border-radius: 50%;
 }
 
+
 .content-grid-container {
     font-size: 2vw;
     min-width: 50%;
@@ -70,10 +71,50 @@
 
 #solution_html{
     border: black solid 2px;
-    display: block;
 }
 
 #solution_css{
     border: black solid 2px;
-    display: block;
+}
+
+#solution{
+    text-decoration: underline;
+}
+
+.alt{
+    margin: auto;
+    text-align: center;
+}
+
+.rect_round_all_blue{
+    border: 2px black solid;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #1180FF;
+    border-radius: 20px;
+}
+
+.rect_oval_all_green{
+    border: 2px black solid;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #398F47;
+    border-radius: 100px / 50px;
+}
+
+.rect_circle_all_red{
+    border: 2px black solid;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 50%;
 }
