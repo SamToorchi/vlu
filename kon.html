@@ -16,38 +16,17 @@
     <img onclick="backButton()" class="back_button" src="https://img.icons8.com/flat_round/32/000000/back--v1.png" / alt="back button">
 
     <div class="whitebox">
-        <div class="title">Abgerundete Ecken über CSS3 - <i>Kognitivistischer Ansatz</i></div>
+        <div class="title">Abgerundete Ecken über CSS3 - <i>Konstruktivistischer Ansatz</i></div>
         <span class="content">
             Theorie:<br>
             <div class="text">
-                Sehr einfach können beliebigen Elementen über die CSS3-Anweisung <code>border-radius</code>, abgerundete Ecken mitgegeben werden. Zu den Elementen gehören, neben den üblichen HTML-Elementen wie DIV, genauso Bilder. Die Rundung kann individuell für jede „Ecke“ bestimmt werden.
+                Sehr einfach können beliebigen Elementen über die CSS3-Anweisungen, abgerundete Ecken mitgegeben werden. Zu den Elementen gehören, neben den üblichen HTML-Elementen wie DIV, genauso Bilder. Die Rundung kann individuell für jede „Ecke“ bestimmt werden.
                 <br><br>
-                Der einfachste Aufbau des Befehls, wenn alle 4 Ecken dieselbe Rundung bekommen sollen, lautet:
+                Früher musste für abgerundete Ecken ein großer Aufwand getrieben werden. Die Rundungen wurde über Grafiken und Bildbearbeitung erstellt. Dabei stiegen die übertragenen Dateien und die Ladezeit an. Heutzutage erstellt man sehr einfach, abgerundete Ecken über den CSS3-Befehle.
                 <br><br>
-                <pre class="cssvs">border-radius<span class="sy0">:</span> <span class="re3">20px</span><span class="sy0">;</span>
-                    </pre>
+                Informieren Sie sich über den Aufbau von Tabellen bitte auf <a href="https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/%C3%A4u%C3%9Fere_Gestaltung/Rahmen/border-radius" style="text-decoration: underline;" target="_blank">SelfHTML</a> oder <a href="https://de.wikibooks.org/wiki/Websiteentwicklung:_CSS:_Box-Modell#Rahmen_%E2%80%93_Ausblick_CSS3-Arbeitsentwurf" style="text-decoration: underline;" target="_blank">WikiBooks</a>.
             </div>
         </span>
-
-
-        <span class="content">
-            <div class="text">
-                Dadurch erhalten alle 4 Ecken eine Rundung von 20 Pixeln. Das klappt bei aktuellen Browsern, die CSS3 unterstützen.
-            </div>
-        </span>
-
-        <span class="content">
-            <div class="text">
-                Es können sowohl Pixelangaben, relative Angaben wie die Einheit em, wie auch prozentuale Angaben gemacht werden. Über eine prozentuale Angabe ist schnell die Erstellung eines Kreises (bzw. Ovals) möglich.<br><br>
-                <b>Kreis:</b>
-                <pre class="cssvs">border-radius<span class="sy0">:</span> <span class="re3">50%</span><span class="sy0">;</span>
-                    </pre>
-                <b>Oval:</b>
-                <pre class="cssvs">border-radius<span class="sy0">:</span> <span class="re3">150px / 100px</span><span class="sy0">;</span>
-                    </pre>
-            </div>
-        </span>
-
         <br>
         <span class="content">
             Praxis:<br>
@@ -65,9 +44,9 @@
                             <!-- source: https://stackoverflow.com/questions/11386586/how-to-show-div-tag-literally-in-code-pre-tag -->
                             <code class="prettyprint">
                                 &lt;div class="rect_round_all_blue"&gt;<br>
-                                    &emsp;&lt;div class="rect_oval_all_green"&gt;<br>
-                                        &emsp;&emsp;&lt;div class="rect_circle_all_red">&lt;/div&gt;<br>
-                                    &emsp;&lt;/div&gt;<br>
+                                &emsp;&lt;div class="rect_oval_all_green"&gt;<br>
+                                &emsp;&emsp;&lt;div class="rect_circle_all_red">&lt;/div&gt;<br>
+                                &emsp;&lt;/div&gt;<br>
                                 &lt;/div&gt;
                             </code>
                         </div>

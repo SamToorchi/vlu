@@ -5,17 +5,17 @@ body {
     #line-height: 1.3em;
 }
 
-.back_button{
+.back_button {
     position: fixed;
     width: 32px;
     height: 32px;
     #border: 2px solid black;
     top: 2px;
     left: 5px;
-    -webkit-box-shadow: 12px 10px 66px -23px rgba(0,0,0,0.75);
-    -moz-box-shadow: 12px 10px 66px -23px rgba(0,0,0,0.75);
-    box-shadow: 12px 10px 66px -23px rgba(0,0,0,0.75);
-    
+    -webkit-box-shadow: 12px 10px 66px -23px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 12px 10px 66px -23px rgba(0, 0, 0, 0.75);
+    box-shadow: 12px 10px 66px -23px rgba(0, 0, 0, 0.75);
+
 }
 
 .whitebox {
@@ -72,30 +72,25 @@ html::-webkit-scrollbar {
 
 }
 
-
-.grid-container {
-    width: 50%;
+.note {
+    #border: 2px black solid;
     margin: auto;
+    text-align: center;
+    padding: auto;
+    min-width: 30%;
+    max-width: 50%;
     margin-top: 30px;
-    display: grid;
-    grid-template-columns: 10% 90%;
-    grid-template-rows: 1fr;
-    grid-template-areas: "one two";
-    #border: 2px solid black;
+    background-color: white;
+    -webkit-box-shadow: 28px 22px 64px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 28px 22px 64px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 28px 22px 64px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    font-size: 1.8vh;
+    padding-right: 15px;
 }
-
-.one {
-    margin: auto;
-    #border: 2px black solid;
-    grid-area: one;
-    #border: 2px black solid;
-}
-
-.two {
-    margin: auto;
-    #border: 2px black solid;
-    grid-area: two;
-    text-align: left;
 }
 
 a:link {

@@ -27,7 +27,7 @@
     margin-bottom: 10px;
     margin-top: 10px;
     background-color: #E8DCB3;
-    border-radius: 100px / 50px;
+    border-radius: 150px / 100px;
 }
 
 .rect_circle_all{
@@ -99,13 +99,13 @@
 
 .rect_oval_all_green{
     border: 2px black solid;
-    width: 200px;
+    width: 290px;
     height: 200px;
     margin: auto;
     margin-bottom: 10px;
     margin-top: 10px;
     background-color: #398F47;
-    border-radius: 100px / 50px;
+    border-radius: 50%;
 }
 
 .rect_circle_all_red{
