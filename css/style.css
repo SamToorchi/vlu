@@ -9,14 +9,21 @@ body {
     position: fixed;
     width: 32px;
     height: 32px;
-    #border: 2px solid black;
     top: 2px;
     left: 5px;
     -webkit-box-shadow: 12px 10px 66px -23px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 12px 10px 66px -23px rgba(0, 0, 0, 0.75);
     box-shadow: 12px 10px 66px -23px rgba(0, 0, 0, 0.75);
-
 }
+
+@media only screen and (max-width: 813px) {
+  .back_button {
+    width: 32px;
+    height: 32px;
+    #border: black solid 2px;
+  }
+}
+
 
 .whitebox {
     #border: 2px solid black;
@@ -69,7 +76,6 @@ html::-webkit-scrollbar {
     #border: 2px black solid;
     font-weight: bold;
     margin-top: 25px;
-
 }
 
 .note {
@@ -81,9 +87,9 @@ html::-webkit-scrollbar {
     max-width: 50%;
     margin-top: 30px;
     background-color: white;
-    -webkit-box-shadow: 28px 22px 64px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 28px 22px 64px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 28px 22px 64px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 17px 12px 64px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 17px 12px 64px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 17px 12px 64px 0px rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: center;
     align-items: center;
