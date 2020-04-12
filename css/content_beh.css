@@ -68,6 +68,12 @@
     padding: 8px;
 }
 
-.solution{
+#solution_html{
     border: black solid 2px;
+    display: block;
+}
+
+#solution_css{
+    border: black solid 2px;
+    display: block;
 }
