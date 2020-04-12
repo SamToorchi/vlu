@@ -82,19 +82,19 @@ html::-webkit-scrollbar {
     #border: 2px black solid;
     margin: auto;
     text-align: center;
-    padding: auto;
-    min-width: 30%;
-    max-width: 50%;
+    #padding: auto;
+    min-width: 70%;
+    max-width: 80%;
     margin-top: 30px;
     background-color: white;
-    -webkit-box-shadow: 17px 12px 64px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 17px 12px 64px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 17px 12px 64px 0px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 17px 12px 23px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 17px 12px 23px 0px rgba(0,0,0,0.75);
+box-shadow: 17px 12px 23px 0px rgba(0,0,0,0.75);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 30px;
-    font-size: 1.8vh;
+    #font-size: 1.8vh;
     padding-right: 15px;
 }
 }
