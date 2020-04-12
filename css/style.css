@@ -1,0 +1,226 @@
+body {
+    background-color: #CEDDF4;
+    display: block;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    #line-height: 1.3em;
+}
+
+.back_button{
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    #border: 2px solid black;
+    top: 2px;
+    left: 5px;
+    -webkit-box-shadow: 12px 10px 66px -23px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 10px 66px -23px rgba(0,0,0,0.75);
+    box-shadow: 12px 10px 66px -23px rgba(0,0,0,0.75);
+    
+}
+
+.whitebox {
+    #border: 2px solid black;
+    background-color: #F0F0F0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-left: 2%;
+    padding-right: 2%;
+    #border-radius: 30px;
+    height: 95vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    #font-size: 1.7vh;
+    #font-size: 1.7vw;
+    -webkit-box-shadow: 12px 10px 66px -23px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 12px 10px 66px -23px rgba(0, 0, 0, 0.75);
+    box-shadow: 12px 10px 66px -23px rgba(0, 0, 0, 0.75);
+
+
+}
+
+html {
+    scrollbar-width: none;
+    /* For Firefox */
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+    width: 0px;
+    /* For Chrome, Safari, and Opera */
+}
+
+
+.title {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    border: 5px solid #FFD980;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 2vh;
+
+}
+
+.content {
+    position: relative;
+    #border: 2px black solid;
+    font-weight: bold;
+    margin-top: 25px;
+
+}
+
+
+.grid-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 1fr;
+    grid-template-areas: "one two";
+    #border: 2px solid black;
+}
+
+.one {
+    margin: auto;
+    #border: 2px black solid;
+    grid-area: one;
+    #border: 2px black solid;
+}
+
+.two {
+    margin: auto;
+    #border: 2px black solid;
+    grid-area: two;
+    text-align: left;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: alias;
+}
+
+a:active {
+    text-decoration: underline;
+    cursor: alias;
+}
+
+code {
+    color: darkblue !important;
+    font-family: "Source Code Pro", Consolas, monospace;
+    font-weight: 500;
+    /* font-size: 1.3em; */
+    padding: 0 4px;
+    /* border: 1px solid silver; */
+    /* background-color: #eee; */
+    letter-spacing: -0.05em;
+}
+
+.text {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: normal;
+}
+
+
+
+
+.cssvs {
+    border-left: limegreen 6px solid;
+    z-index: 100 !important;
+    font-family: "Source Code Pro", Consolas, monospace;
+    font-weight: 500;
+
+    background-position: top right;
+    background-repeat: no-repeat !important;
+    position: relative;
+    padding: 0.6em .8em;
+    padding: 1em .8em;
+    border-left: #b4c6e0 6px solid;
+    display: block;
+    overflow: auto;
+    font-size: 1em;
+    line-height: 1.5em;
+    background-color: #eeeeee;
+    margin-bottom: 1em;
+    min-height: 3em;
+    padding: 0 0 0 0.5em !important;
+    background-color: #D1D1D1;
+    line-height: 2em !important;
+    background-image: repeating-linear-gradient(transparent 0,
+            transparent 2em, hsla(0, 100%, 100%, 0.5) 2em,
+            hsla(0, 100%, 100%, 0.5) 4em, transparent 4em);
+}
+
+pre[class*="cssvs"]::before {
+    font-size: 10pt !important;
+    background-color: silver;
+    font-weight: bold;
+    color: white;
+
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 2px 0 0 30px !important;
+    text-align: center;
+    right: 0;
+    opacity: 0.5 !important;
+}
+
+pre[class*="cssvs"]::before {
+    position: relative;
+    left: 90%;
+    #content: 'CSS';
+    background-color: #32cd32 !important;
+}
+
+.cssvs {
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 700px;
+    white-space: pre-wrap;
+    margin-right: 20px !important;
+    overflow: visible !important;
+    font-family: "Source Code Pro", Consolas, monospace;
+    background-position: top right;
+    background-repeat: no-repeat !important;
+    position: relative;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 1em;
+    min-height: 3em;
+    padding: 0 0 0 0.5em !important;
+    background-color: #eee;
+    line-height: 2em !important;
+    background-image: repeating-linear-gradient(transparent 0,
+            transparent 2em, hsla(0, 100%, 100%, 0.5) 2em,
+            hsla(0, 100%, 100%, 0.5) 4em, transparent 4em);
+    border-left: limegreen 6px solid;
+    z-index: 100 !important;
+    font-weight: bold;
+}
+
+.sy0 {
+    color: black;
+    font-weight: normal;
+}
+
+.re3 {
+    color: #259BE4;
+    font-weight: normal;
+}
